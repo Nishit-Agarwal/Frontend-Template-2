@@ -1,0 +1,153 @@
+body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.container1{
+	display: flex;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: white;
+	padding: 1%;
+	margin: 0;
+	box-shadow: 0 0 5px 0 #888888;
+}
+.container1>.left{
+	text-align: left;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+}
+.container1>.right{
+	text-align: right;
+	width: 50%;
+	margin: 0;
+	margin-right: 1%;
+	padding: 0;
+}
+.container1>.left>a,.container1>.right>a{
+	text-decoration: none;
+	color: black;
+	font-family: verdana;
+	padding: 10px;
+	margin: 1%;
+}
+
+
+
+.container2{
+	margin: 3% 2% 3% 0.5%;
+	text-align: center;
+	position: relative;
+	z-index: -1;
+}
+.container2>img{
+	width: 100%;
+}
+.container2>.text{
+	position: absolute;
+	top: 50%;
+	left: 40%;
+}
+.container2>.text>h1>.t1{
+	color: white;
+	background-color: black;
+	padding: 10px;
+}
+
+.container3{
+	margin: 3% 3% 3% 2.5%; 
+	padding: 0;
+}
+.container3>.cont{
+	padding: 0 0 0 0;
+	margin: 2% 0 2% 0;
+	width: 101%;
+	text-align: left;
+}
+.container3>.cont>.box{
+	width: 24.7%;
+	display: inline-flex;
+	padding: 0 0 0 0;
+	margin: 1% 0 1% 0;
+}
+.container3>.cont>.box>img{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.container3>.cont>.box>.text{
+	position: absolute;
+	background-color: black;
+	color: white;
+	padding: 5px;	
+	z-index: -1;
+}
+
+
+.container4{
+	margin: 3% 3% 3% 2.5%; 
+}
+.container4>.cont>{
+	text-align: left;
+}
+.container4>.cont>.box{
+	width: 24.5%;
+	display: inline-block;
+}
+.container4>.cont>.box>img{
+	height: 100%;
+	width: 100%;
+	display: inline-block;
+}
+.container4>.cont>.box>span{
+	width: 100%;
+	text-align: center;
+}
+.container4>.cont>.box>span>p{
+	padding: 10px;
+	background-color: silver;
+}
+.container4>.cont>.box>span>p:hover{
+	background-color: blue;
+}
+
+
+.container5{
+	margin: 3% 3% 3% 2.5%; 
+}
+.container5>form>input{
+	width: 98%;
+	margin-bottom: 1%;
+	font-size: 15px;
+	padding: 1%;
+}
+.container5>form>button{
+	margin-bottom: 1%;
+	font-size: 15px;
+	padding: 1%;
+}
+
+.container6{
+	margin: 3% 3% 3% 2.5%;
+}
+.container6>img{
+	width: 100%; 
+}
+
+footer{
+	background-color: black;
+	width: 100%; 
+	text-align: center;
+}
+footer>p{
+	padding: 2.5%;
+	margin: 0;
+	color: white;
+}
+footer>p>a{
+	color: white;
+}
